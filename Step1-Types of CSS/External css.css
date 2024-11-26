@@ -1,0 +1,13 @@
+h1{
+    color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    background-color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ol li{
+    color: fuchsia;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
