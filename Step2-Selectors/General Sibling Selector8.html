@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    <style>
+        .first ~ .sibling {
+            color: purple;
+            font-size: 18px;
+        }
+        .first{
+            background-color: deeppink;
+        }
+        h1{
+            color: blue;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>General Sibling Selector in CSS</h1>
+    <p class="first">A general sibling selector targets all sibling elements of a specified element that share the same parent.</p>
+    <p class="sibling">This paragraph is styled using a general sibling selector because it follows the element with the class 'first'.</p>
+    <p>This paragraph is not styled because it does not have the class 'sibling'.</p>
+    <p class="sibling">This paragraph is also styled using the general sibling selector, even though it is not immediately adjacent to the 'first' element.</p>
+</body>
+</html>

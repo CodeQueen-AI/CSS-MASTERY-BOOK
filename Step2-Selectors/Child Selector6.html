@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <style>
+        /* Child Selector */
+        .parent > .child {
+            color: purple;
+            font-size: 18px;
+        }
+        h1{
+            color: deeppink;
+        }
+        .child{
+            color: aqua;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Child Selector in CSS</h1>
+    <div class="parent">
+        <p class="child">A child selector targets direct child elements of a specified parent. This paragraph is styled using a child selector.</p>
+    </div>
+    <div>
+        <p class="child">This paragraph is also not affected by the child selector because it is not a direct child of the specified parent.</p>
+    </div>
+</body>
+</html>
